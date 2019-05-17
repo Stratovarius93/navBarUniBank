@@ -1,0 +1,100 @@
+$colorTextNav: #5f6368;
+body{
+  padding: 0;
+  margin: 0;
+  nav{
+    font-family: 'Product Sans',Arial,sans-serif;
+    background-color: #fff;
+    height: 60px;
+    width: 100%;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.2);
+    ul{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      .itemsLeft{
+        justify-content: center;
+        align-items: center;
+        float: left;
+        display: block importan;
+        ul{
+          list-style: none;
+          align-items: center;
+          display: flex;
+          li{
+            list-style: none;
+          }
+          .txtLogo{
+            padding-top: 20px;
+            padding-bottom: 20px;
+            list-style: none;
+            font-weight: 550;
+            font-size: 22px;
+
+            p{
+              color: #427E59;
+              padding: 0;
+              margin: 0;
+            }
+            p:hover{
+              color: #2e5b40;
+              transition: .3s;
+            }
+          }
+          .imgLogo{
+            padding-left: 16px;
+            padding-right: 8px;
+          }
+        }
+      }
+      .itemsRight{
+        ul{
+          list-style: none;
+          padding-right: 8px;
+          li{
+            list-style: none;
+            float: right;
+            list-style: none;
+            padding-left: 8px;
+            padding-right: 8px;
+            .iniciarS{
+              button{
+                margin-top: 8px;
+                margin-bottom: 8px;
+                border: 0;
+                background-color: #fff;
+                padding: 10px;
+                font-size: 18px;
+                border-radius: 22px;
+                color:#427E59;
+                font-weight: 600;
+              }
+              button:hover{
+                background-color: #c5ff8c;
+                color: #2e5b40;
+                transition: .6s;
+              }
+            }
+            .crearC{
+              button{
+                margin-top: 8px;
+                margin-bottom: 8px;
+                border: 0;
+                background-color: #fff;
+                padding: 10px;
+                font-size: 18px;
+                border-radius: 22px;
+                color:#5F6368;
+              }
+              button:hover{
+                background-color: rgba(0,0,0,0.1);
+                color: #5f6368;
+                transition: .2s;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
